@@ -147,6 +147,9 @@ We need to be careful when converting (explicitly or implicitly) one type to ano
    
 4. **Complete all the TODO** To complete this lab, complete every remaining `TODO` and remove each `TODO` comment when you have completed them. The autograder will check for remaining `TODO` so make sure they are not present once you have finished an item. 
 
+## SAVING YOUR WORK ON GITHUB
+As we have discussed in class, it is important to work on labs and assignments regularly and save frequently. You should test your work incrementally, which will require you to save your file before compiling/running it. In addition to saving your work on your local machine, you should also frequently push your work to this Github repository. You can refer to the [Git and Github tutorial](https://github.com/CS230X-F24/github-starter-course) for a refresher on using these tools. 
+
 ## SUBMITTING
 Turn in your work submitting files Profile.java and Conversions.java to your Gradescope account for Lab0. You will receive full credit for this lab if you submit a reasonable attempt at completing the lab by the deadline. [Click here for Gradescope instructions.](https://docs.google.com/document/d/1zGAJrbdAhfPZVlyDP9N3MmdKXWvNo7rQqehKNM5Q0_M/edit) 
 
