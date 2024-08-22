@@ -1,4 +1,4 @@
-# CS230X-lab0-S24
+# CS230X-lab0-F24
 # Getting Started
 
 In this lab, you will get started with the tools we will use this semester for labs and assignments.
