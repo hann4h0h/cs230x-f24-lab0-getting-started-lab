@@ -5,20 +5,20 @@ In this lab, you will get started with the tools we will use this semester for l
 
 Goals:
 - [x] Create a Github account (if you are reading this, then you have done this first task)
-- [ ] Review basics of the Shell and command line
-- [ ] Review basics of Git and getting started with Github
-- [ ] Start working with BlueJ
+- [x] Review basics of the Shell and command line
+- [x] Review basics of Git and getting started with Github
+- [x] Start working with BlueJ
 - [ ] Write some simple java programs
 - [ ] Learn how to submit your work on Gradescope
 
 ## Task 1: Organizing your work and using shell commands
-Proactively planning how you will organize your digital files will help you in CS230X (and beyond). 
-For a lab like this one (lab0), you will be using starter code provided by cloning a github repository. 
-Essentially, this will create a connection between a local folder (on your machine) to a remote repository (on Github). 
+Proactively planning how you will organize your digital files will help you in CS230X (and beyond).
+For a lab like this one (lab0), you will be using starter code provided by cloning a github repository.
+Essentially, this will create a connection between a local folder (on your machine) to a remote repository (on Github).
 One reason to be well organized in your folders, amongst many, is to ensure that you are using Github correctly.
 
 Organizing your folder structure as you begin CS230X is an excellent opportunity to familiarize yourself (or refresh yourself)
-with shell commands. 
+with shell commands.
 
 ### Steps to Follow:
 
@@ -27,10 +27,10 @@ with shell commands.
 * [Workshop 2: Shell](https://docs.google.com/document/d/1ZHQZbVBJtTg4Ed4g-r8k_stnDT7yv8e5An6Lby_jwHU/edit)
 
 > **Note:** As specified in the Shell Workshop notes, these instructions work best on a MacOS/Linux computer. If your computer is
-a Windows machine, you can install WSL or use a public Mac. 
+a Windows machine, you can install WSL or use a public Mac.
 
 2. **Create your initial CS230 folder structure.**
- 
+
 - My recommendation would be to create a CS230X folder in a place that is easy for you to find (Desktop or Documents)
 that will contain all of your CS230X materials.
 - In this folder, I would create three subfolders:
@@ -46,11 +46,11 @@ at your root folder and then `cd Desktop` or `cd Documents`.
 3) Now, create a new folder with the command `mkdir CS230X`.
 4) Check to make sure the folder is there with the command `ls`
 5) Continue navigating into this new folder using `cd`, creating new subfolders using `mkdir`, and using `ls` to check yourself.
-  
+
 
 ## Task 2: Git and Github for CS230X
-In this class we will use Github to release assignments and labs. 
-The instructions will be available in the README files of each assignment and lab, and the repository will contain the starter code when available. 
+In this class we will use Github to release assignments and labs.
+The instructions will be available in the README files of each assignment and lab, and the repository will contain the starter code when available.
 In this lab0 repository, you can see 4 initial files: .gitignore contains a list of files to be ignored by git (you will
 not modify this one), Conversions.java, README.md, and package.bluej.
 
@@ -58,7 +58,7 @@ not modify this one), Conversions.java, README.md, and package.bluej.
 
 1. **Set up Git:**
 - Start by familiarizing yourself with this [Git and Github tutorial](https://github.com/CS230X-F24/github-starter-course).
-- Make sure you have a way use Git/Github by either using commands directly in the shell or downloading [GitHub Desktop](https://desktop.github.com/download/) 
+- Make sure you have a way use Git/Github by either using commands directly in the shell or downloading [GitHub Desktop](https://desktop.github.com/download/)
 
 2. **Clone the lab repository:**
 - Clone the starter code for this assignment in your folder CS230X/Labs.
@@ -71,7 +71,7 @@ not modify this one), Conversions.java, README.md, and package.bluej.
 Now, you can check in your folder CS230X/Labs. You should have a new folder called Lab0-Getting-Started that contains the same 4 files as this repository. You can now start editing these files.
 
 ## Task 3: Meet BlueJ
-In CS230X, we will use BlueJ as an IDE to develop, test, compile, and run our Java programs. Compiling a Java program converts Java source code (files ending in .java) into something called bytecodes (files ending in .class) which can then be understood by the computer. 
+In CS230X, we will use BlueJ as an IDE to develop, test, compile, and run our Java programs. Compiling a Java program converts Java source code (files ending in .java) into something called bytecodes (files ending in .class) which can then be understood by the computer.
 
 ### Steps to Follow:
 
@@ -83,11 +83,11 @@ Let's make sure that you have a successful workflow between BlueJ for editing lo
 2. **Push the local file to the remote repository:** If you set up Github with SSH and the Terminal, then follow the steps in the [Example to update a remote repository](https://github.com/CS230X-F24/github-starter-course/blob/main/README.md) in the Git and Github tutorial. If you are using Github Desktop, then enter a brief explanation of the update in the "Summary (required)" textbox, then click "commit to main", and finally click "Push origin".
 
 Refresh this browser page, you should see an updated README with all the tasks you have completed checked off. Your workflow for CS230X is successful! This is how you will be working with labs and assignments in the course. Make sure to frequently push your updates to the remote repository.
- 
+
 ## Task 3: Create a new Java Program
 
 ### Create your first Java class: Profile.java
-In this task, you will create a new Java program that will print information about you to a terminal. 
+In this task, you will create a new Java program that will print information about you to a terminal.
 
 ### Steps to Follow:
 1. **Create a new Java Class** In the BlueJ project window, click on the New Class... button. Name the new class Profile and click ok. A "Profile" icon should appear in the project window. Note the diagonal lines decorating the "Profile" icon; it means the class has not been compiled yet.
@@ -142,19 +142,19 @@ We need to be careful when converting (explicitly or implicitly) one type to ano
 
 ### Steps to Follow:
 1. **Open the Conversions.java in the project workspace on BlueJ.** What errors do you see immediately? Before writing any code, can you explain what the errors are? Can you determine what is needed to fix these errors?
-   
+
 2. **Fix the immediate errors** After fixing the immediate errors, compile and run this class. To compile a class in BlueJ, right-click or ctrl-click on the class icon in the BlueJ workspace and select "compile". To run the program, right-click or ctrl-click on the class icon again and select "void main(String[] args)". Then select "ok" on the method call popup. You will then see a terminal window open with the output of the main().
-   
-4. **Complete all the TODO** To complete this lab, complete every remaining `TODO` and remove each `TODO` comment when you have completed them. The autograder will check for remaining `TODO` so make sure they are not present once you have finished an item. 
+
+4. **Complete all the TODO** To complete this lab, complete every remaining `TODO` and remove each `TODO` comment when you have completed them. The autograder will check for remaining `TODO` so make sure they are not present once you have finished an item.
 
 ## SAVING YOUR WORK ON GITHUB
-As we have discussed in class, it is important to work on labs and assignments regularly and save frequently. You should test your work incrementally, which will require you to save your file before compiling/running it. In addition to saving your work on your local machine, you should also frequently push your work to this Github repository. You can refer to the [Git and Github tutorial](https://github.com/CS230X-F24/github-starter-course) for a refresher on using these tools. 
+As we have discussed in class, it is important to work on labs and assignments regularly and save frequently. You should test your work incrementally, which will require you to save your file before compiling/running it. In addition to saving your work on your local machine, you should also frequently push your work to this Github repository. You can refer to the [Git and Github tutorial](https://github.com/CS230X-F24/github-starter-course) for a refresher on using these tools.
 
 ## SUBMITTING
-Turn in your work submitting files Profile.java and Conversions.java to your Gradescope account for Lab0. You will receive full credit for this lab if you submit a reasonable attempt at completing the lab by the deadline. [Click here for Gradescope instructions.](https://docs.google.com/document/d/1zGAJrbdAhfPZVlyDP9N3MmdKXWvNo7rQqehKNM5Q0_M/edit) 
+Turn in your work submitting files Profile.java and Conversions.java to your Gradescope account for Lab0. You will receive full credit for this lab if you submit a reasonable attempt at completing the lab by the deadline. [Click here for Gradescope instructions.](https://docs.google.com/document/d/1zGAJrbdAhfPZVlyDP9N3MmdKXWvNo7rQqehKNM5Q0_M/edit)
 
 ## AUTOGRADER
-When you submit your lab to Gradecope, you will immediately see some feedback through the autograder. You are welcome to resubmit as many times as you wish until the deadline. The autograder will check for accuracy, style, and documentation. Make sure there are no remaining `TODO` comments in your submission code. Click here for 230X instructions on: [testing your code](https://docs.google.com/document/d/19cKOyolT8UtSfMNrVw8MGgVWS-lYgHpBs8g2Cf_8Vvc/edit#heading=h.rt39ohf1jp6s), [styling your code](https://docs.google.com/document/d/14uwj9HAjNKfFBm0ZjUpWR7jdqKSj13rudIEJaG74mPk/edit), and [documenting your code](https://docs.google.com/document/d/15uqs_NH8y2sAuLLpiZuSxlI0UsL6a8CHuWY_qcvF4B4/edit). 
+When you submit your lab to Gradecope, you will immediately see some feedback through the autograder. You are welcome to resubmit as many times as you wish until the deadline. The autograder will check for accuracy, style, and documentation. Make sure there are no remaining `TODO` comments in your submission code. Click here for 230X instructions on: [testing your code](https://docs.google.com/document/d/19cKOyolT8UtSfMNrVw8MGgVWS-lYgHpBs8g2Cf_8Vvc/edit#heading=h.rt39ohf1jp6s), [styling your code](https://docs.google.com/document/d/14uwj9HAjNKfFBm0ZjUpWR7jdqKSj13rudIEJaG74mPk/edit), and [documenting your code](https://docs.google.com/document/d/15uqs_NH8y2sAuLLpiZuSxlI0UsL6a8CHuWY_qcvF4B4/edit).
 
 ## LAB SOLUTIONS
-Lab solutions will be added to this repository after the lab deadline. 
+Lab solutions will be added to this repository after the lab deadline.
